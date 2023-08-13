@@ -1,3 +1,3 @@
-const allowedOrigins = ["https://https://finixstore.onrender.com"];
+const allowedOrigins = ["https://finixstore.onrender.com"];
 
 module.exports = allowedOrigins;
