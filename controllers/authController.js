@@ -21,12 +21,12 @@ const login = async (req, res) => {
   });
 
   if (!foundUser || !foundUser.active) {
-    return res.status(401).json({ message: "Unauthorized" });
+    return res.status(401).json({ message: "User not found" });
   }
   const match = foundUser.password === password ? true : false;
   //   const match = await compare(password, foundUser.password);
 
-  if (!match) return res.status(401).json({ message: "Unauthorized" });
+  if (!match) return res.status(401).json({ message: "Password is INCORRECT" });
 
   const accessToken = jwt.sign(
     {
