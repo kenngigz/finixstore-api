@@ -23,4 +23,6 @@
 19. [ ] Only Managers and Admins can access User Settings
 20. [ ] Only Managers and Admins can create new users
 21. [ ] Desktop mode is most important but should be available in mobile
-22. [ ] MUST be done using MySQL 
+22. [ ] MUST be done using MySQL
+
+Client-side: https://github.com/kenngigz/finixstore
