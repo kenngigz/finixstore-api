@@ -1,6 +1,6 @@
 # finixstore-api
 
-# Clients Requirements for his bar order management system
+# Clients Requirements => bar order management system
 
 1. [ ] Replace the current bar order management system
 2. [ ] Add a public-facing page with basic dynamic notices
